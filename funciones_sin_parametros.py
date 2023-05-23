@@ -39,3 +39,22 @@ def sumar_numeros():
     return resultado
 
 print((sumar_numeros)())
+
+##correccion funcion5: 
+#Función sumar_numeros:
+#Hay un error en la llamada a la función sumar_numeros. 
+#Debes eliminar los paréntesis adicionales alrededor de sumar_numeros.
+#Además, puedes cambiar el nombre de la función a multiplicar_numeros para
+#que sea más coherente con la descripción.
+
+def multiplicar_numeros():
+    x = int(input("Ingrese un número: "))
+    y = int(input("Ingrese un número para multiplicarlo por el anterior: "))
+    resultado = x * y
+    return resultado
+
+print(multiplicar_numeros())
+
+
+
+
